@@ -1,0 +1,287 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:verticalScrollbarPosition="right"
+    android:visibility="visible"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="snacks"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/snacks" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView1"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="Snacks"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/imageView1"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/chowmein" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView2"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="Chineese"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/imageView2"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/northindian" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView3"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="North-Indian"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/imageView3"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/coffee" />
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView7"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="Tea-Coffee"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/imageView7"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/thali" />
+
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView9"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="Special-Thali"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="50dp"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_toRightOf="@id/imageView1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/softdrinks" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView4"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/text1"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="Soft-Drinks"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/imageView4"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="30dp"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_toRightOf="@id/imageView2"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/italian" />
+
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView5"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/text2"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="Italian"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/imageView5"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_toRightOf="@id/imageView3"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/southindian" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView6"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/text3"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="South-Indian"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/imageView6"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_toRightOf="@id/imageView3"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icecream" />
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView8"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/text7"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="Dessert-Shakes"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="135dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/imageView8"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_toRightOf="@id/imageView9"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/combo" />
+
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="135dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/imageView10"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/text9"
+                    android:fontFamily="@font/berkshire_swash"
+                    android:text="Combo-Offers"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".cart">
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="42dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="292dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/delete"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="286dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/mycart" />
+
+        <TextView
+            android:id="@+id/showinput"
+            android:layout_width="291dp"
+            android:layout_height="411dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/background_dark"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/texttotal"
+            android:layout_width="172dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/background_light"
+            android:scrollbars="vertical"
+            android:text="Total price:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/showinput" />
+
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="94dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/showinput" />
+
+        <Button
+            android:id="@+id/order"
+            android:layout_width="291dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="Place Order"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texttotal" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

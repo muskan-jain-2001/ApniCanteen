@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="5dp"
+        android:hint="User Name"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/secondary_text_light"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username1"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/secondary_text_light"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+         />
+
+    <Button
+        android:id="@+id/btnsignin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="SIGN IN"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

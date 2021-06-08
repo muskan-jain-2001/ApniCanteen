@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout12"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".placeorder">
+
+    <TextView
+        android:id="@+id/textViewo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="288dp"
+        android:text="Order ID:"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/randomno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="288dp"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@id/textViewo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="365dp"
+        android:layout_height="108dp"
+        android:src="@drawable/rplogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="360dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/razorpay1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/paymentbtn"
+        android:layout_width="238dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="336dp"
+        android:background="@color/rp"
+        android:text="Proceed For Online Payment"
+        android:textColor="?android:attr/windowBackground"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

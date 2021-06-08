@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="5dp"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="5dp"
+        android:hint="User Name"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/secondary_text_light"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/secondary_text_light"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="5dp"
+        android:hint="Retype Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/secondary_text_light"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Register"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repassword" />
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Existing user go to sign in page"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnsignup" />
+
+    <Button
+        android:id="@+id/adminsignin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Login As Admin"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnsignin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

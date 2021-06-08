@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apnicanteen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/icon"
+        android:label="Apni Canteen"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Thankyou"></activity>
+        <activity android:name=".History" />
+        <activity android:name=".admincheck" />
+        <activity android:name=".admin" />
+        <activity android:name=".placeorder" />
+        <activity android:name=".cart" />
+        <activity android:name=".thalimenu" />
+        <activity android:name=".combomenu" />
+        <activity android:name=".dessertmenu" />
+        <activity android:name=".teamenu" />
+        <activity android:name=".southsmenu" />
+        <activity android:name=".italiansmenu" />
+        <activity android:name=".coldsmenu" />
+        <activity android:name=".northmenu" />
+        <activity android:name=".chineesemenu" />
+        <activity android:name=".snacksmenu" />
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".Login"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Home"
+            android:parentActivityName=".Login" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

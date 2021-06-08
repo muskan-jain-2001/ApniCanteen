@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".admin">
+
+    <EditText
+        android:id="@+id/username2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="5dp"
+        android:hint="Admin Name"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/secondary_text_light"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/secondary_text_light"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username2" />
+    />
+
+    <Button
+        android:id="@+id/btnsignin2"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="56dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="ADMIN LOGIN"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

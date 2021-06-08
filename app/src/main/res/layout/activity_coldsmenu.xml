@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".coldsmenu">
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="SOFT DRINKS"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Virgin Mojito........."
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="40"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="/-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView1a"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Orange Juice.........."
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView1" />
+
+    <TextView
+        android:id="@+id/textView2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="40"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView2"
+        app:layout_constraintTop_toBottomOf="@id/textView1a" />
+
+    <TextView
+        android:id="@+id/textView2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="/-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView2a"
+        app:layout_constraintTop_toBottomOf="@id/textView1b" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Amul Lassi............."
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="30"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView3"
+        app:layout_constraintTop_toBottomOf="@id/textView2a" />
+
+    <TextView
+        android:id="@+id/textView3b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="/-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView2a"
+        app:layout_constraintTop_toBottomOf="@id/textView2b" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Pepsi....................."
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="40"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView4"
+        app:layout_constraintTop_toBottomOf="@id/textView3a" />
+
+    <TextView
+        android:id="@+id/textView4b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="/-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView4a"
+        app:layout_constraintTop_toBottomOf="@id/textView3b" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Coca-Cola..............."
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+    <TextView
+        android:id="@+id/textView5a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="40"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView5"
+        app:layout_constraintTop_toBottomOf="@id/textView4a" />
+
+    <TextView
+        android:id="@+id/textView5b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="/-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView5a"
+        app:layout_constraintTop_toBottomOf="@id/textView4b" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Frooti....................."
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:id="@+id/textView6a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="10"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView5"
+        app:layout_constraintTop_toBottomOf="@id/textView5a" />
+
+    <TextView
+        android:id="@+id/textView6b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="/-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/textView6a"
+        app:layout_constraintTop_toBottomOf="@id/textView5b" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="ADD"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@id/textView1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/holo_orange_light"
+        android:popupBackground="@android:drawable/spinner_dropdown_background"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/button1"
+        app:layout_constraintLeft_toRightOf="@id/button1">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="ADD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button1" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/holo_orange_light"
+        android:popupBackground="@android:drawable/spinner_dropdown_background"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/button2"
+        app:layout_constraintLeft_toRightOf="@id/button2">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="ADD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button2" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/holo_orange_light"
+        android:popupBackground="@android:drawable/spinner_dropdown_background"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@id/button3"
+        app:layout_constraintBaseline_toBaselineOf="@id/button3">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="ADD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button3" />
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:background="@android:color/holo_orange_light"
+        android:popupBackground="@android:drawable/spinner_dropdown_background"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/button4"
+        app:layout_constraintLeft_toRightOf="@id/button4">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="ADD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button4" />
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:background="@android:color/holo_orange_light"
+        android:popupBackground="@android:drawable/spinner_dropdown_background"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/button5"
+        app:layout_constraintLeft_toRightOf="@id/button5">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="ADD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@id/textView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button5" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/holo_orange_light"
+        android:popupBackground="@android:drawable/spinner_dropdown_background"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/button6"
+        app:layout_constraintLeft_toRightOf="@id/button6">
+
+    </Spinner>
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="193dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/softdrinks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView6">
+
+    </ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

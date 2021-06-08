@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="green">#125F15</color>
+    <color name="red">#FA0404</color>
+    <color name="yellow">#9CFFC107</color>
+    <color name="light">#94FFC107</color>
+    <color name="blue">#03A9F4</color>
+    <color name="razorpay">#1E277A</color>
+    <color name="rp">#012652</color>
+    <color name="lightblue">#0D94FB</color>
+</resources>
